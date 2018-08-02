@@ -1,0 +1,13 @@
+{
+  "name": "kafka-producer",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "grpc": "^1.13.0",
+    "node-rdkafka": "^2.3.3",
+    "protobufjs": "^6.8.6"
+  }
+}

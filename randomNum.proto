@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package pckgRandom;
+
+service srvRandom {
+    rpc GetLocations (Locations) returns (Empty) {}
+}
+
+message Locations {
+    double longitude = 1;
+    double latitude = 2;
+}
+
+message Empty {
+}
